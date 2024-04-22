@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+/* Basic Text */
+body {
+    background-image: linear-gradient(to left, #0099ec, #a6e329);
+    color: black;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Times New Roman", serif;
+    font-size: 1em;
+} 
+h1 {
+    text-shadow: 7px 10px 3px gray;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.7em;
+    margin-top: 20px;
+}
+h2 {
+    color: black;
+    font-size: 1.7em;
+    font-family: "Times New Roman", serif;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+p.normText {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+p.tableContents {
+    color: black;
+    font-size: 1.5em;
+    font-family: "Times New Roman", serif;
+    padding-left: .5em;
+    padding-right: .5em;
+    font-weight: bold;
+}
+p.challenges {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+p.EasterEggs {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+header {
+    background-image: linear-gradient(to left, #0099ec, #a6e329);
+    text-align: center;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav Bar */
+nav a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid 1px #a6e329;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+}
+nav a:link {
+    background-color: #a6e329;
+    color: black;
+}
+nav a:visited {
+    color: black;
+}
+nav a:hover {
+    
+}
+#links {
+    display: inline-block;
+}
+
+/* Tables */
+ol {
+    color: black;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.15em;
+}
+ul {
+    color: black;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.15em;
+}
+li.tableList {
+    color: black;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1em;
+}
+dt {
+    color: black;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.15em;
+}
+dd {
+    color: purple;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.15em;
+}
+table { 
+    margin-left: 5em;
+    width: 90%;
+    border-style: solid;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    background-color: #13ffff;
+}
+tr:nth-child(even) {
+    background-color: #9fedfe;
+}
+th {
+    background-color: #3cb9e1;
+    border-style: solid;
+    padding: 1em;
+    font-size: 1.8em;
+}
+.branch
+{
+    font-size: 1.2em;
+    padding: 1em;
+    border-style: solid;
+    border-width: thin;
+}
+td {
+    font-size: 1.2em;
+    padding: 1em;
+    border-style: solid;
+    border-width: thin;
+}
+.caption {
+    padding: .5em;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Jump to Careers Table */
+a.careers:visited {
+    color: black;
+}
+a.careers:link {
+    color: black;
+}
+a.careers:hover {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Photos */
+.Photo {
+    border-radius: 4px;
+    width: 125px;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+}
+.Photo2 {
+    border-radius: 4px;
+    width: 125px;
+    position: absolute; 
+    top: 110px;
+    right: 100px;
+}
+.Tv {
+    padding: 5px;
+    width: 780px;
+}
+.Outside {
+    padding: 5px;
+    width: 1000px;
+}
+.Bartending {
+    padding: 2px;
+    width: 820px;
+}
+.Cooking {
+    padding: 2px;
+    width: 750px;
+}
+.Painting {
+    padding: 2px;
+    width: 1035px;
+}
+.Working {
+    padding: 2px;
+    width: 970px;
+}
+.Command {
+    padding: 2px;
+    width: 100%;
+}
+.Dancing {
+    padding: 5px;
+    width: 900px;
+}
+.Maze {
+    padding: 5px;
+    width: 700px;
+}
+.Roomies {
+    padding: 5px;
+    width: 1100px;
+}
+.BabyYoda {
+    padding: 5px;
+    width: 900px;
+}
